@@ -43,6 +43,36 @@ button {
     
 }
 
+.neu-btn2{
+    border: none;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+    transition: all;
+    transition-duration: 400ms;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 15px;
+    
+}
+
+
+
+.gallery-link {
+    border: none;
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+    top: 600px;
+    width: 100%;
+}
+
 button svg {
     align-items: center;
     width: 30px;
@@ -70,7 +100,28 @@ body {
     5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
+.neu-btn2 {
+    background: #e8ecf2;
+    color: #73787d;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 9999px;
+    
+    border: 4px oslid #e8ecf2;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8), 
+    5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
 .neu-btn:hover {
+    color: red;
+
+    box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6), 
+    1px 1px 5px rgba(0, 0, 0, 0.3),
+    inset -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.neu-btn2:hover {
     color: red;
 
     box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6), 
@@ -143,3 +194,45 @@ a:active {
 		background-color: orange; 
 	}
 }
+
+div.gallery {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    float: middle;
+    
+  }
+    
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.gallery-background{
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom , white, black);
+}
+
+
+
+.column {
+    justify-content: center;
+    width: 25.00%;
+    padding: 10px;
+    margin: 10px;    
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
