@@ -1,7 +1,10 @@
 
+// List of sentences
 var _CONTENT = [ 
-	"BRENDAN GODDARD",
-    "FANSHAWE COLLEGE - CPA3"
+	"Twinkle, twinkle, little star", 
+	"How I wonder what you are", 
+	"Up above the world so high", 
+	"Like a diamond in the sky"
 ];
 
 // Current sentence being processed

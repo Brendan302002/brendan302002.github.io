@@ -4,12 +4,35 @@
     padding: 0;
     margin: 0;
 }
+.hidden {
+    border: none;
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+    top: 150px;
+    width: 100%;
 
+}
+.second {
+    border: none;
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    top: 55px;
+    width: 100%;
+}
 button {
     border: none;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
     transition: all;
     transition-duration: 400ms;
     display: inline-block;
@@ -22,8 +45,8 @@ button {
 
 button svg {
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 body {
@@ -61,7 +84,7 @@ footer {
     position: absolute;
     bottom: 30px;
     width: 50%;
-    font-size: 14px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
 }
@@ -92,10 +115,14 @@ a:active {
     text-align: center;
 }
 
+#container {
+	text-align: center;
+}
+
 #text {
 	display: inline-block;
 	vertical-align: middle;
-	color: rgb(0, 0, 0);
+	color: orange;
 	letter-spacing: 2px;
 }
 
@@ -104,7 +131,7 @@ a:active {
 	vertical-align: middle;
 	width: 3px;
 	height: 50px;
-	background-color: rgb(0, 0, 0);
+	background-color: orange;
 	animation: blink .75s step-end infinite;
 }
 
@@ -113,6 +140,6 @@ a:active {
 		background-color: transparent 
 	}
 	50% { 
-		background-color: rgb(0, 0, 0); 
+		background-color: orange; 
 	}
 }
