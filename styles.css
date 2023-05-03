@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Roboto+Mono:wght@300&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 .hidden {
     border: none;
@@ -14,9 +14,26 @@
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
 
-    top: 150px;
+    top: 100px;
     width: 100%;
 
+}
+
+.profile-img {
+    border:none;
+    
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+
+}
+.profile-img img {
+    border-radius: 50px;
+    
 }
 .second {
     border: none;
@@ -29,6 +46,7 @@
     top: 55px;
     width: 100%;
 }
+
 button {
     border: none;
     cursor: pointer;
@@ -37,10 +55,12 @@ button {
     transition: all;
     transition-duration: 400ms;
     display: inline-block;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     margin: 15px;
+
     
 }
 
@@ -82,7 +102,7 @@ button svg {
 
 body {
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(147,143,143,1) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(147,143,143,1) 50%, rgba(0,0,0,1) 100%);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -238,3 +258,42 @@ div.gallery {
       width: 100%;
     }
   }
+
+.Robotics {
+    position: absolute;
+    width: 222px;
+    height: 75px;
+    left: 863.5px;
+    top: 696.5px;
+
+    background: #AFAFB6;
+    border-radius: 10px;
+}
+
+.oakbotics-button {
+    position: absolute;
+    width: 104px;
+    height: 18px;
+    left: 26px;
+    top: 29px;
+
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1E0101;
+} 
+
+.oakbotics {
+    position: absolute;
+    width: 74px;
+    height: 75px;
+    left: calc(50% - 74px/2 + 64px);
+    top: 0px;
+}
+
