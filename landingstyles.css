@@ -43,11 +43,12 @@ body {
 @media screen and (max-width: 540px) {
 
     .landing-page {
+        
         position: absolute;
         width: 300px;
         height: 100px;
         left: 100px;
-        top: 60px;
+        top: 250px;
     
     }
     
@@ -56,7 +57,7 @@ body {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         left: 0px;
         top: 0px;
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 450;
     }
     
@@ -64,8 +65,8 @@ body {
         position: absolute;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         left: 0px;
-        top: 75px;
-        font-size: 35px;
+        top: 50px;
+        font-size: 25px;
         font-weight: 350;
         color: rgb(94, 92, 92);
     }
@@ -73,11 +74,11 @@ body {
     .landing-page-paragraph {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: absolute;
-        width: 300px;
+        width: 335px;
         font-weight: 100;
-        font-size: 45px;
+        font-size: 35px;
         left: 0px;
-        top: 150px;
+        top: 100px;
     }
 }
 
