@@ -40,6 +40,20 @@ body {
     top: 150px;
 }
 
+.my-image {
+    position: absolute;
+    width: 700px;
+    left: 850px;
+    top: 85px;
+    
+    
+} 
+.my-image img {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
 @media screen and (max-width: 540px) {
 
     .landing-page {
