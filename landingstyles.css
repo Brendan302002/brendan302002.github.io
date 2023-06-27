@@ -54,7 +54,7 @@ body {
     width: 250px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 440px) {
 
     .landing-page {
         
@@ -112,10 +112,10 @@ body {
     
 }
 
-@media screen and (min-width: 540px) and (max-width: 780px) {
+@media screen and (min-width: 440px) and (max-width: 780px) {
     .landing-page {
         position: absolute;
-        width: 1140px;
+        width: 400px;
         height: 312px;
         left: 390px;
         top: 260px;
