@@ -59,10 +59,10 @@ body {
     .landing-page {
         
         position: absolute;
-        width: 300px;
-        height: 100px;
+        width: fit-content;
+        height: 100vh;
         left: 100px;
-        top: 250px;
+        top: 100px;
     
     }
     
@@ -70,16 +70,17 @@ body {
         position: absolute;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         left: 0px;
-        top: 0px;
+        top: -50px;
         font-size: 30px;
         font-weight: 450;
+        
     }
     
     .landing-page-subtitle {
         position: absolute;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         left: 0px;
-        top: 50px;
+        top: 35px;
         font-size: 25px;
         font-weight: 350;
         color: rgb(94, 92, 92);
@@ -88,12 +89,27 @@ body {
     .landing-page-paragraph {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: absolute;
-        width: 335px;
+        width: 250px;
         font-weight: 100;
         font-size: 35px;
         left: 0px;
         top: 100px;
     }
+
+    
+    .my-image {
+        position: absolute;
+        left: 200px;
+        top: 0px;
+            
+            
+    } 
+    .my-image img {
+        border-radius: 20px;
+        height: 100px;
+        width: 100px;
+    }
+    
 }
 
 @media screen and (min-width: 540px) and (max-width: 780px) {
