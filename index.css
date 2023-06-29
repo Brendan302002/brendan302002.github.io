@@ -98,4 +98,15 @@ body {
       margin-left: -3vh;
       margin-top: 10vh;
     }
+
+    .header-text h1 {
+        padding-left: 50px;
+        font-size: 25px;
+        
+    }
+    
+    .header-text h2 {
+        padding-left: 55px;
+        font-size: 22px;
+    }
   }
