@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.navigation {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 25px 0px 0px 0px;
+    margin: 0px;
+}
+
+.navigation ul {
+    display: flex;
+    
+    list-style: none;
+}
+
+.navigation li a {
+    padding: 10px;
+    text-decoration: none;
+    color: Black;
+}
+
+
+.header-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-text h1 {
+    margin: 5px;
+    padding-left: 50px;
+}
+
+.header-text h2 {
+    margin: 5px;
+    padding-left: 75px;
+}
+
+.home-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.home-text p {
+    width: 225px;
+    
+}
+
+.socials {
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+
+.github {
+    padding-left: 40px;
+}
+
+.LinkedIN {
+    margin-top: -22px;
+    padding-right: 0px;
+}
+
+.location {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: -15px;
+}
+
+.location svg {
+    padding-left: 15px;
+}
+
+.location p {
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: -3vh;
+      margin-top: 10vh;
+    }
+  }
